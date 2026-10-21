@@ -7,7 +7,8 @@
   </head>
   <body>
     <h1>Marcelo Molina</h1>
-    <p style="border: 2px solid black">
+    <img src="foto.png" alt="Foto de Marcelo Molina" class="foto-perfil" />
+    <p style="border: 2px solid black" class="texto-formal">
       Welcome to my CV! I am a passionate and dedicated software developer with
       a strong background in computer science. I have experience in both
       front-end and back-end development, and I am always eager to learn new
@@ -35,7 +36,101 @@
     </ul>
     <h2>Experience</h2>
     <ul>
-      <li><b>Internship: AudioSistema S. de R.L. de C.V.:</b> Q2 2026,</li>
+      <li><b>Internship: AudioSistema S. de R.L. de C.V.:</b> Q2 2026</li>
+      <li><b>2nd Place - Hackathon UNITEC 2026</b> Q3 2026</li>
     </ul>
   </body>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 25px;
+      background-color: #b3cdf4;
+      color: #302f2f;
+    }
+
+    h1 {
+      color: #0b2f60;
+      font-size: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-bottom: 3px solid #12325e;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      color: #2b4c7e;
+      font-size: 28px;
+      margin-top: 25px;
+      border-left: 5px solid #2b4c7e;
+      padding-left: 10px;
+    }
+
+    ul {
+      background-color: #b4cfea;
+      padding: 20px 20px 20px 40px;
+      border-radius: 8px;
+      border: 1px solid #1a365d;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    ul li {
+      color: #302f2f;
+      margin-bottom: 10px;
+      line-height: 1.5;
+      padding: 3px;
+    }
+
+    ul li:hover {
+      color: #1a365d;
+      background-color: #b4cfea;
+      border-radius: 4px;
+    }
+
+    p {
+      line-height: 1.8;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #b4cfea;
+      border-radius: 8px;
+    }
+
+    .texto-formal {
+      font-size: 20px;
+      color: #444;
+      text-align: justify;
+      border: 2px solid black;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    b {
+      color: #1a365d;
+    }
+
+    h1:hover {
+      color: #2b6cb0;
+    }
+
+    h2:hover {
+      color: #2b6cb0;
+    }
+
+    body {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .foto-perfil {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #1a365d;
+      display: block;
+      margin: 20px auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </html>
